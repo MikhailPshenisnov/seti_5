@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <title>Seti 5</title>
+</head>
+<body>
+<label>
+    <input type="text" id="inputText"/>
+</label>
+<h2 id="resultText"></h2>
+<script>
+    const inputText = document.getElementById("inputText");
+    const resultText = document.getElementById("resultText")
+    inputText.addEventListener("change", async () => {
+        try {
+            const x = ("https://localhost:7232/SolveExpression/" + inputText.value);
+            const response = await fetch(x, {
+                method: "POST"
+            });
+            if (response.ok) {
+                resultText.innerText = await response.text();
+            }
+        } catch (e) {
+            resultText.innerText = e.message;
+        }
+    });
+</script>
+</body>
+</html>

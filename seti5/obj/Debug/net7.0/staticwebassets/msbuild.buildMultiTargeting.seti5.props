@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\seti5.props" />
+</Project>

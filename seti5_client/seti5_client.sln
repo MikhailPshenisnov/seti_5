@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seti5_client", "seti5_client.csproj", "{90EC4F90-9558-445D-B0D0-71A57F52D27B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90EC4F90-9558-445D-B0D0-71A57F52D27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EC4F90-9558-445D-B0D0-71A57F52D27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EC4F90-9558-445D-B0D0-71A57F52D27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EC4F90-9558-445D-B0D0-71A57F52D27B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

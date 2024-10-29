@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "qlnOdES6RqhGLYruxcW49rdbe6/5ahEOQd67eC+PWOI=",
+  "Source": "seti5_client",
+  "BasePath": "_content/seti5_client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "seti5_client\\wwwroot",
+      "Source": "seti5_client",
+      "ContentRoot": "D:\\RiderPojects\\seti_5\\seti5_client\\wwwroot\\",
+      "BasePath": "_content/seti5_client",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\RiderPojects\\seti_5\\seti5_client\\wwwroot\\index.html",
+      "SourceId": "seti5_client",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RiderPojects\\seti_5\\seti5_client\\wwwroot\\",
+      "BasePath": "_content/seti5_client",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
